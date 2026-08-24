@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0E1714" />
+    <link rel="manifest" href="/os-8bcc9a19/manifest.webmanifest" />
+    <link rel="icon" href="/os-8bcc9a19/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/os-8bcc9a19/icon-192.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>ОСЬ — система</title>
+      <link rel="stylesheet" href="/os-8bcc9a19/fonts/fonts.css" />
+        <meta name="apple-mobile-web-app-title" content="ОСЬ" />
+    <style>
+      /* Церемония включения: вертикаль прочерчивается и загорается узел.
+         Живёт до первого кадра приложения — потом React затирает #root. */
+      #root > .boot {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #root > .boot path {
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: boot-draw 320ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+      #root > .boot circle {
+        opacity: 0;
+        animation: boot-spark 220ms ease-out 300ms forwards;
+      }
+      @keyframes boot-draw { to { stroke-dashoffset: 0; } }
+      @keyframes boot-spark { to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        #root > .boot path { animation: none; stroke-dashoffset: 0; }
+        #root > .boot circle { animation: none; opacity: 1; }
+      }
+    </style>
+    <script type="module" crossorigin src="/os-8bcc9a19/assets/index-DojaSPtM.js"></script>
+    <link rel="modulepreload" crossorigin href="/os-8bcc9a19/assets/react-DZRUXSPQ.js">
+    <link rel="stylesheet" crossorigin href="/os-8bcc9a19/assets/index-Cov5ALDH.css">
+  </head>
+  <body>
+        <div id="root"><svg class="boot" viewBox="0 0 24 120" width="24" height="120" aria-hidden="true"><path d="M12 4 V104" stroke="#3FD9A0" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="12" cy="110" r="5" fill="#EBA53C"/></svg></div>
+  </body>
+</html>
