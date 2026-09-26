@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0E1714" />
+    <!-- Описание — для превью ссылки в мессенджере: приглашение «Позвать
+         партнёра» уходит ссылкой, и карточка превью говорит, что это -->
+    <meta name="description" content="ОСЬ — система здоровья для двоих: осанка, зал, еда и восстановление, дуэль процентами своих целей. Записи не покидают телефон." />
+    <meta property="og:title" content="ОСЬ" />
+    <meta property="og:description" content="Система здоровья для двоих: осанка, зал, еда, восстановление. Записи не покидают телефон." />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="/os-8bcc9a19/manifest.webmanifest" />
+    <link rel="icon" href="/os-8bcc9a19/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/os-8bcc9a19/icon-192.png" />
+    <!-- Стартовые экраны iOS: без них холодный старт показывал белую вспышку.
+         Генерирует scripts/splash.mjs — знак оси на фоне приложения -->
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1320x2868.png" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1206x2622.png" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1260x2736.png" media="(device-width: 420px) and (device-height: 912px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1179x2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1284x2778.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/os-8bcc9a19/splash/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>ОСЬ — система</title>
+      <link rel="stylesheet" href="/os-8bcc9a19/fonts/fonts.css" />
+        <meta name="apple-mobile-web-app-title" content="ОСЬ" />
+    <style>
+      /* Церемония включения: вертикаль прочерчивается и загорается узел.
+         Живёт до первого кадра приложения — потом React затирает #root. */
+      #root > .boot {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #root > .boot path {
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: boot-draw 320ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+      #root > .boot circle {
+        opacity: 0;
+        animation: boot-spark 220ms ease-out 300ms forwards;
+      }
+      @keyframes boot-draw { to { stroke-dashoffset: 0; } }
+      @keyframes boot-spark { to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        #root > .boot path { animation: none; stroke-dashoffset: 0; }
+        #root > .boot circle { animation: none; opacity: 1; }
+      }
+    </style>
+    <script type="module" crossorigin src="/os-8bcc9a19/assets/index-FfRFqjM6.js"></script>
+    <link rel="modulepreload" crossorigin href="/os-8bcc9a19/assets/react-BriE5KIz.js">
+    <link rel="stylesheet" crossorigin href="/os-8bcc9a19/assets/index-BUUDl9NF.css">
+  </head>
+  <body>
+        <div id="root"><svg class="boot" viewBox="0 0 24 120" width="24" height="120" aria-hidden="true"><path d="M12 4 V104" stroke="#3FD9A0" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="12" cy="110" r="5" fill="#EBA53C"/></svg></div>
+  </body>
+</html>

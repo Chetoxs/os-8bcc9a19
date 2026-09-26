@@ -1,0 +1,526 @@
+{
+ "morning:0": {
+  "file": "morning-0-1abdad1d7fa2.m4a",
+  "ms": 2761
+ },
+ "morning:1": {
+  "file": "morning-1-d4e7918ab1ab.m4a",
+  "ms": 2176
+ },
+ "morning:2": {
+  "file": "morning-2-77aba8c7af43.m4a",
+  "ms": 2774
+ },
+ "morning:3": {
+  "file": "morning-3-4b6a00c3b7ac.m4a",
+  "ms": 2638
+ },
+ "gymDay:0": {
+  "file": "gymDay-0-189e9a5e289e.m4a",
+  "ms": 2505
+ },
+ "gymDay:1": {
+  "file": "gymDay-1-a6861bccf9c7.m4a",
+  "ms": 2485
+ },
+ "gymDay:2": {
+  "file": "gymDay-2-64945ed51cae.m4a",
+  "ms": 2897
+ },
+ "gymDay:3": {
+  "file": "gymDay-3-3dd5943c4d69.m4a",
+  "ms": 2049
+ },
+ "restDay:0": {
+  "file": "restDay-0-f7c404304f06.m4a",
+  "ms": 2744
+ },
+ "restDay:1": {
+  "file": "restDay-1-a0a6089f672c.m4a",
+  "ms": 2857
+ },
+ "restDay:2": {
+  "file": "restDay-2-fb881e888559.m4a",
+  "ms": 3048
+ },
+ "restDay:3": {
+  "file": "restDay-3-d114dbe4e1b4.m4a",
+  "ms": 2709
+ },
+ "sunday:0": {
+  "file": "sunday-0-63ce3cf62a7f.m4a",
+  "ms": 2858
+ },
+ "sunday:1": {
+  "file": "sunday-1-3ba1f8b63cc3.m4a",
+  "ms": 3046
+ },
+ "sunday:2": {
+  "file": "sunday-2-fd8554951295.m4a",
+  "ms": 3055
+ },
+ "sunday:3": {
+  "file": "sunday-3-6c09da28dd38.m4a",
+  "ms": 3098
+ },
+ "first:0": {
+  "file": "first-0-408ad7465a7d.m4a",
+  "ms": 3155
+ },
+ "first:1": {
+  "file": "first-1-f0f16645047b.m4a",
+  "ms": 2230
+ },
+ "first:2": {
+  "file": "first-2-5780c08adaf2.m4a",
+  "ms": 3022
+ },
+ "first:3": {
+  "file": "first-3-44c63936cd31.m4a",
+  "ms": 2948
+ },
+ "half:0": {
+  "file": "half-0-3c2069c51695.m4a",
+  "ms": 3004
+ },
+ "half:1": {
+  "file": "half-1-18530b924c7e.m4a",
+  "ms": 2645
+ },
+ "half:2": {
+  "file": "half-2-01b6c52a3743.m4a",
+  "ms": 3345
+ },
+ "half:3": {
+  "file": "half-3-2fe558f8f879.m4a",
+  "ms": 3091
+ },
+ "posture:0": {
+  "file": "posture-0-61793e7f8943.m4a",
+  "ms": 2860
+ },
+ "posture:1": {
+  "file": "posture-1-8fdab3275a21.m4a",
+  "ms": 2895
+ },
+ "posture:2": {
+  "file": "posture-2-2eb787a52666.m4a",
+  "ms": 2606
+ },
+ "posture:3": {
+  "file": "posture-3-6d5417669d70.m4a",
+  "ms": 1779
+ },
+ "penta:0": {
+  "file": "penta-0-577f0381eecc.m4a",
+  "ms": 3274
+ },
+ "penta:1": {
+  "file": "penta-1-a57eb77f0011.m4a",
+  "ms": 2536
+ },
+ "penta:2": {
+  "file": "penta-2-801af42fee0a.m4a",
+  "ms": 2026
+ },
+ "penta:3": {
+  "file": "penta-3-e8da01f7d960.m4a",
+  "ms": 2342
+ },
+ "gymStart:0": {
+  "file": "gymStart-0-8a5c8a2c5ac9.m4a",
+  "ms": 2132
+ },
+ "gymStart:1": {
+  "file": "gymStart-1-7fb3cc75d99a.m4a",
+  "ms": 3048
+ },
+ "gymStart:2": {
+  "file": "gymStart-2-b15d35ede5f9.m4a",
+  "ms": 2555
+ },
+ "gymStart:3": {
+  "file": "gymStart-3-d4142e9d8901.m4a",
+  "ms": 2179
+ },
+ "gymHard:0": {
+  "file": "gymHard-0-b7847535588d.m4a",
+  "ms": 2822
+ },
+ "gymHard:1": {
+  "file": "gymHard-1-8bb2cfacc00d.m4a",
+  "ms": 3283
+ },
+ "gymHard:2": {
+  "file": "gymHard-2-b7085a1ed922.m4a",
+  "ms": 2441
+ },
+ "gymHard:3": {
+  "file": "gymHard-3-4a8f7814c065.m4a",
+  "ms": 2023
+ },
+ "gymEnd:0": {
+  "file": "gymEnd-0-c42f345e8989.m4a",
+  "ms": 2622
+ },
+ "gymEnd:1": {
+  "file": "gymEnd-1-73ebc0370468.m4a",
+  "ms": 2768
+ },
+ "gymEnd:2": {
+  "file": "gymEnd-2-21d7610f6aca.m4a",
+  "ms": 2160
+ },
+ "gymEnd:3": {
+  "file": "gymEnd-3-4711298dd03c.m4a",
+  "ms": 2796
+ },
+ "pr:0": {
+  "file": "pr-0-9440cdaaa49d.m4a",
+  "ms": 3199
+ },
+ "pr:1": {
+  "file": "pr-1-b1ac1e43ab1c.m4a",
+  "ms": 2560
+ },
+ "pr:2": {
+  "file": "pr-2-ad61ae1b3f58.m4a",
+  "ms": 1690
+ },
+ "pr:3": {
+  "file": "pr-3-59525dfae33b.m4a",
+  "ms": 2379
+ },
+ "level:0": {
+  "file": "level-0-869072c2f298.m4a",
+  "ms": 2520
+ },
+ "level:1": {
+  "file": "level-1-ce89d494aea2.m4a",
+  "ms": 2703
+ },
+ "level:2": {
+  "file": "level-2-1eb5abde6afb.m4a",
+  "ms": 2832
+ },
+ "level:3": {
+  "file": "level-3-8e214402d8c6.m4a",
+  "ms": 2197
+ },
+ "rank:0": {
+  "file": "rank-0-1a5d7091955c.m4a",
+  "ms": 2164
+ },
+ "rank:1": {
+  "file": "rank-1-2e24892afe44.m4a",
+  "ms": 2750
+ },
+ "rank:2": {
+  "file": "rank-2-5b8ac1c11a85.m4a",
+  "ms": 2818
+ },
+ "rank:3": {
+  "file": "rank-3-bea42bf223be.m4a",
+  "ms": 2432
+ },
+ "statTier:0": {
+  "file": "statTier-0-c8a3af42790f.m4a",
+  "ms": 3009
+ },
+ "statTier:1": {
+  "file": "statTier-1-cda4674d6219.m4a",
+  "ms": 2220
+ },
+ "statTier:2": {
+  "file": "statTier-2-0968ffe3efa7.m4a",
+  "ms": 2585
+ },
+ "statTier:3": {
+  "file": "statTier-3-7276f1658a3c.m4a",
+  "ms": 2710
+ },
+ "milestone:0": {
+  "file": "milestone-0-c5de6b817a78.m4a",
+  "ms": 2435
+ },
+ "milestone:1": {
+  "file": "milestone-1-bd071e682b53.m4a",
+  "ms": 2788
+ },
+ "milestone:2": {
+  "file": "milestone-2-e46c940467f7.m4a",
+  "ms": 3256
+ },
+ "milestone:3": {
+  "file": "milestone-3-b16d44ce7b77.m4a",
+  "ms": 3460
+ },
+ "seal:0": {
+  "file": "seal-0-24e84518d7a2.m4a",
+  "ms": 3044
+ },
+ "seal:1": {
+  "file": "seal-1-4cdc3866d4a3.m4a",
+  "ms": 2799
+ },
+ "seal:2": {
+  "file": "seal-2-e8db459ba27d.m4a",
+  "ms": 2884
+ },
+ "gateReady:0": {
+  "file": "gateReady-0-2b43d4de53da.m4a",
+  "ms": 2954
+ },
+ "gateReady:1": {
+  "file": "gateReady-1-7553b6448bb0.m4a",
+  "ms": 2534
+ },
+ "gateReady:2": {
+  "file": "gateReady-2-bb72a1999b0f.m4a",
+  "ms": 2154
+ },
+ "gateReady:3": {
+  "file": "gateReady-3-85d1721ecd81.m4a",
+  "ms": 2675
+ },
+ "gate:0": {
+  "file": "gate-0-310e6300771e.m4a",
+  "ms": 3599
+ },
+ "gate:1": {
+  "file": "gate-1-8e0cb9f0760b.m4a",
+  "ms": 2470
+ },
+ "gate:2": {
+  "file": "gate-2-6725d84024bd.m4a",
+  "ms": 3156
+ },
+ "gate:3": {
+  "file": "gate-3-f9554b086fac.m4a",
+  "ms": 2605
+ },
+ "gateFail:0": {
+  "file": "gateFail-0-e74cb6b928a9.m4a",
+  "ms": 2516
+ },
+ "gateFail:1": {
+  "file": "gateFail-1-f38dc23b345c.m4a",
+  "ms": 2644
+ },
+ "gateFail:2": {
+  "file": "gateFail-2-74ef94b7aa03.m4a",
+  "ms": 2748
+ },
+ "gateFail:3": {
+  "file": "gateFail-3-784d8b82a8a4.m4a",
+  "ms": 3129
+ },
+ "trial:0": {
+  "file": "trial-0-4ee53f697985.m4a",
+  "ms": 2221
+ },
+ "trial:1": {
+  "file": "trial-1-8e3383de98cc.m4a",
+  "ms": 3096
+ },
+ "trial:2": {
+  "file": "trial-2-79fb32fbc812.m4a",
+  "ms": 3323
+ },
+ "trial:3": {
+  "file": "trial-3-8f0896ea9361.m4a",
+  "ms": 3130
+ },
+ "flame:0": {
+  "file": "flame-0-e5378ef557f2.m4a",
+  "ms": 2372
+ },
+ "flame:1": {
+  "file": "flame-1-031a93514d31.m4a",
+  "ms": 2810
+ },
+ "flame:2": {
+  "file": "flame-2-bd1361957a7d.m4a",
+  "ms": 3051
+ },
+ "flame:3": {
+  "file": "flame-3-b1ea1a779e6e.m4a",
+  "ms": 2557
+ },
+ "shield:0": {
+  "file": "shield-0-1203459d5693.m4a",
+  "ms": 2332
+ },
+ "shield:1": {
+  "file": "shield-1-9cc28a8c3861.m4a",
+  "ms": 2522
+ },
+ "shield:2": {
+  "file": "shield-2-9c0e3b6432b9.m4a",
+  "ms": 2274
+ },
+ "shield:3": {
+  "file": "shield-3-73110989dd50.m4a",
+  "ms": 2386
+ },
+ "back:0": {
+  "file": "back-0-70cfca49d7ca.m4a",
+  "ms": 2219
+ },
+ "back:1": {
+  "file": "back-1-c15aa378ecc8.m4a",
+  "ms": 2258
+ },
+ "back:2": {
+  "file": "back-2-bb10ad941a21.m4a",
+  "ms": 2641
+ },
+ "back:3": {
+  "file": "back-3-7b44d33367d0.m4a",
+  "ms": 3194
+ },
+ "find:0": {
+  "file": "find-0-028d40b12fa0.m4a",
+  "ms": 2336
+ },
+ "find:1": {
+  "file": "find-1-d262ebd7bf22.m4a",
+  "ms": 3434
+ },
+ "find:2": {
+  "file": "find-2-74998d8d64e0.m4a",
+  "ms": 2793
+ },
+ "find:3": {
+  "file": "find-3-f36d97f2e015.m4a",
+  "ms": 3039
+ },
+ "duelWin:0": {
+  "file": "duelWin-0-64ec2e13ebd9.m4a",
+  "ms": 2920
+ },
+ "duelWin:1": {
+  "file": "duelWin-1-dc463bbac02c.m4a",
+  "ms": 2926
+ },
+ "duelWin:2": {
+  "file": "duelWin-2-610105c91a40.m4a",
+  "ms": 2383
+ },
+ "duelWin:3": {
+  "file": "duelWin-3-37212d096501.m4a",
+  "ms": 3034
+ },
+ "duelLose:0": {
+  "file": "duelLose-0-18005727118c.m4a",
+  "ms": 2672
+ },
+ "duelLose:1": {
+  "file": "duelLose-1-cbfec6e3516f.m4a",
+  "ms": 3019
+ },
+ "duelLose:2": {
+  "file": "duelLose-2-136e81d7cbd8.m4a",
+  "ms": 2261
+ },
+ "duelLose:3": {
+  "file": "duelLose-3-6f10a7e781da.m4a",
+  "ms": 3097
+ },
+ "spark:0": {
+  "file": "spark-0-cf9465e80b28.m4a",
+  "ms": 2198
+ },
+ "spark:1": {
+  "file": "spark-1-bcb7141ec24a.m4a",
+  "ms": 2231
+ },
+ "spark:2": {
+  "file": "spark-2-94a1fbd7e209.m4a",
+  "ms": 2468
+ },
+ "spark:3": {
+  "file": "spark-3-14392a9a1a8b.m4a",
+  "ms": 2905
+ },
+ "prize:0": {
+  "file": "prize-0-2645280805bc.m4a",
+  "ms": 3010
+ },
+ "prize:1": {
+  "file": "prize-1-21ab02954b41.m4a",
+  "ms": 2817
+ },
+ "prize:2": {
+  "file": "prize-2-0854024333f1.m4a",
+  "ms": 2466
+ },
+ "prize:3": {
+  "file": "prize-3-d44f70913f2b.m4a",
+  "ms": 1811
+ },
+ "chapter:0": {
+  "file": "chapter-0-0921ced2b75b.m4a",
+  "ms": 2961
+ },
+ "chapter:1": {
+  "file": "chapter-1-01096bedea8f.m4a",
+  "ms": 2981
+ },
+ "chapter:2": {
+  "file": "chapter-2-2468a2fbebe0.m4a",
+  "ms": 2448
+ },
+ "chapter:3": {
+  "file": "chapter-3-ad4a1c4d964e.m4a",
+  "ms": 2243
+ },
+ "finale:0": {
+  "file": "finale-0-c33d332692c0.m4a",
+  "ms": 2050
+ },
+ "finale:1": {
+  "file": "finale-1-e58679dfa5ff.m4a",
+  "ms": 2733
+ },
+ "finale:2": {
+  "file": "finale-2-ae480e1199b8.m4a",
+  "ms": 2336
+ },
+ "finale:3": {
+  "file": "finale-3-6e2e378b9e33.m4a",
+  "ms": 2154
+ },
+ "evening:0": {
+  "file": "evening-0-c10f5bb11153.m4a",
+  "ms": 2446
+ },
+ "evening:1": {
+  "file": "evening-1-a9a31fc05a4a.m4a",
+  "ms": 2773
+ },
+ "evening:2": {
+  "file": "evening-2-75282c561bfc.m4a",
+  "ms": 2900
+ },
+ "evening:3": {
+  "file": "evening-3-5df985d0e44f.m4a",
+  "ms": 2463
+ },
+ "night:0": {
+  "file": "night-0-4398be64581f.m4a",
+  "ms": 3216
+ },
+ "night:1": {
+  "file": "night-1-0800463a2d81.m4a",
+  "ms": 2423
+ },
+ "night:2": {
+  "file": "night-2-240898f7f7a1.m4a",
+  "ms": 2493
+ },
+ "night:3": {
+  "file": "night-3-7b3078430276.m4a",
+  "ms": 2705
+ }
+}

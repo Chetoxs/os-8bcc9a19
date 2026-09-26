@@ -1,0 +1,54 @@
+# Заголовки для статического хостинга. Файл читают и Netlify, и Cloudflare
+# Pages — Vite копирует его из public/ в dist/ как есть.
+#
+# Смысл ровно один: имя файла говорит, можно ли его кэшировать вечно.
+# У ассетов Vite и у записей озвучки в имени отпечаток содержимого —
+# поменялось содержимое, поменялось имя. Их можно держать год.
+# У index.html, sw.js и манифестов имя постоянное — их нельзя кэшировать
+# вообще, иначе человек останется на старой версии до чистки браузера.
+#
+# Здесь уже обжигались: манифест озвучки запрашивался с force-cache, и после
+# обновления браузер отдавал прошлый список — четырнадцать реплик вместо ста
+# двадцати восьми, без единой ошибки.
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Записи озвучки: имя содержит отпечаток реплики
+/voice/*.m4a
+  Cache-Control: public, max-age=31536000, immutable
+
+# Модель позы 20 МБ: имя постоянное, но содержимое не меняется никогда
+/mediapipe/*
+  Cache-Control: public, max-age=2592000
+
+# Ниже — то, что обязано приходить свежим
+
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /
+
+/manifest.webmanifest
+  Cache-Control: no-cache
+
+# Манифесты озвучки: имя постоянное, состав меняется при каждой пересборке
+/voice/mentor/pack.json
+  Cache-Control: no-cache
+
+/voice/spark/pack.json
+  Cache-Control: no-cache
+
+# Данные не покидают телефон, но пусть их и не встраивают в чужую страницу
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY

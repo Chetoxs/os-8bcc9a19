@@ -1,0 +1,61 @@
+{
+  "name": "ОСЬ — персональная система",
+  "short_name": "ОСЬ",
+  "description": "Тренировки, осанка, питание и восстановление с игровой механикой",
+  "lang": "ru",
+  "start_url": "/os-8bcc9a19/",
+  "display": "standalone",
+  "background_color": "#0E1714",
+  "theme_color": "#0E1714",
+  "shortcuts": [
+    {
+      "name": "Тренировка",
+      "url": "/os-8bcc9a19/?tab=workout",
+      "icons": [
+        {
+          "src": "/os-8bcc9a19/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Питание",
+      "url": "/os-8bcc9a19/?tab=nutrition",
+      "icons": [
+        {
+          "src": "/os-8bcc9a19/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Прогресс",
+      "url": "/os-8bcc9a19/?tab=progress",
+      "icons": [
+        {
+          "src": "/os-8bcc9a19/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/os-8bcc9a19/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/os-8bcc9a19/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/os-8bcc9a19/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "scope": "/os-8bcc9a19/"
+}
