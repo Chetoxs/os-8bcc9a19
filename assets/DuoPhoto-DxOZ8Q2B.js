@@ -1,0 +1,1 @@
+import{j as o}from"./react-t2Zbrzyo.js";function n({src:e,alt:l,className:r=""}){return o.jsx("span",{className:`duo-photo block min-w-0 flex-1 rounded-sm border border-line2 ${r}`,children:o.jsx("img",{src:e,alt:l,loading:"lazy",className:"block h-full w-full object-cover"})})}export{n as D};
